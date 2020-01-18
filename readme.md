@@ -68,3 +68,16 @@ export HTTP_PROXY="http://<forward_server>:<forward_port>";\
 export https_proxy="http://<forward_server>:<forward_port>";\
 export HTTPS_PROXY="http://<forward_server>:<forward_port>"
 ```
+
+## Uninstall
+
+```bash
+systemctl stop v2ray
+systemctl disable v2ray
+
+rm -rf /etc/v2ray/*
+rm -rf /usr/bin/v2ray/*
+rm -rf /var/log/v2ray/*
+rm -rf /lib/systemd/system/v2ray.service
+rm -rf /etc/init.d/v2ray
+```
