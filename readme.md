@@ -1,14 +1,16 @@
 # V2ray Forward Quickstart
 
+[知乎专栏](https://zhuanlan.zhihu.com/p/103350360)
+
 ## How to Install (As forward server)
 
-1. Clone this repository
+* Clone this repository
 
    ```bash
    git clone https://github.com/nofacer/v2ray-forward.git
    ```
 
-2. Install v2ray
+* Install v2ray
 
    **Online Install**
 
@@ -23,7 +25,7 @@
    sudo bash go.sh -l v2ray-linux-<64/arm>.zip
    ```
 
-3. Config
+* Config
 
    **Backup original config file**
 
@@ -38,7 +40,7 @@
    sudo vi /etc/v2ray/config.json
    ```
 
-4. Run
+* Run
 
    **Add to Path**
 
