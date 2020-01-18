@@ -1,0 +1,27 @@
+{
+    "inbound": {
+      "port": 1234, // local listen port
+      "listen": "127.0.0.1", // listen address
+      "protocol": "http", // local protocol
+      "settings": {
+        "udp": true // enable udp
+      }
+    },
+    "outbound": {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [{
+          "address": "****", // server address
+          "port": 1234, // server port
+           "users" : [
+             {
+               "id" : "******", // user id
+               "alterId" : 0,
+               "security" : "auto",
+               "level" : 0
+             }
+            ]
+        }]
+      }
+    }
+  } 
